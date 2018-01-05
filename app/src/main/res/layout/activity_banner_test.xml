@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.kbb.kbbtest.activity.BannerTestActivity">
+
+    <!--app:banner_pointDrawable="@drawable/banner_point_selector"-->
+    <cn.bingoogolapple.bgabanner.BGABanner
+        android:id="@+id/bannerPage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        app:banner_pageChangeDuration="1000"
+        app:banner_pointAutoPlayAble="true"
+        app:banner_indicatorGravity="right"
+        app:banner_pointContainerBackground="@color/translate"
+        app:banner_tipTextSize="12sp"
+        app:banner_pointTopBottomMargin="10dp"
+        app:banner_transitionEffect="defaultEffect" />
+
+    <TextView
+        android:id="@+id/tv_otherText"
+        android:text="显示一段文字"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
