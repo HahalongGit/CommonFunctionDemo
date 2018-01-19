@@ -43,6 +43,7 @@
         <activity android:name=".activity.WrapRecycleViewActivity" />
         <activity android:name=".activity.AnimatorTestActivity" />
         <activity android:name=".activity.DataBindingActivity" />
+        <activity android:name=".activity.ConstrainLayoutActivity"></activity>
     </application>
 
 </manifest>
